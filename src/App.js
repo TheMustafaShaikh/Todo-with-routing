@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Routes from './Router';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( 
+
+      <div>
+        <Routes />
+      </div>
+    
+      // <div className="App">
+      //   <div className="main-body">
+      //     <div className="reminder">
+      //       <h1>Reminder</h1>
+      //       <div className="text-reminder">
+      //           <div className="text">
+      //               <p>The 1st reminder!</p>
+      //               <button>Delete</button>
+      //           </div>
+      //       </div>
+      //     </div>
+      //     <div className="addBtn">
+      //     <button className="add">+</button>
+      //     </div>
+          
+      //   </div>
+      // </div>
+      
+    );
 }
 
 export default App;
